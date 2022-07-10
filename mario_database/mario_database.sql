@@ -17,3 +17,8 @@ WHERE character_id =5;
 ALTER TABLE characters
 ADD PRIMARY KEY(name);
 
+--DROP a CONSTRAINT
+-- ALTER TABLE
+-- DROP CONSTRAINT
+ALTER TABLE characters
+DROP CONSTRAINT characters_pkey;
